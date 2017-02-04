@@ -1,0 +1,33 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.Index input[type="text"] {
+  border-radius: 50px;
+  box-shadow: none;
+  font-size: 30px;
+  height: 80px;
+  padding-left: 45px;
+  font-weight: lighter;
+}
+
+.Index div {
+  text-align: center;
+  margin-top: 20px;
+  .form-group {
+    position: relative;
+  }
+  p {
+    font-size: 30px;
+  }
+  input.loading {
+    opacity: 0.5;
+  }
+  .fa {
+    font-size: 50px;
+    opacity: 0.4;
+    position: absolute;
+    right: 19px;
+    top: 14px;
+  }
+}
